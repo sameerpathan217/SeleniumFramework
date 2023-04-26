@@ -16,7 +16,7 @@ public class SampleTestNG {
 	@Test(dependsOnMethods="createContact")
 	public void deleteContact() {
 		System.out.println("Contact Deleted");
-		//data
+		//data created
 	}
 
 }
