@@ -8,8 +8,9 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
+    <version>4.11.0</version>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -27,8 +28,9 @@
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.3.2</version>
+    <version>5.5.3</version>
 </dependency>
+
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
@@ -37,6 +39,26 @@
     <version>7.7.0</version>
     <scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.32</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi --> 
+<dependency> <groupId>com.sikulix</groupId>
+ <artifactId>sikulixapi</artifactId> 
+<version>2.0.5</version> 
+</dependency> 
+
 
 </dependencies>
 

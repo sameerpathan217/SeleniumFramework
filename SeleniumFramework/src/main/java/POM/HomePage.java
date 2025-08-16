@@ -53,6 +53,9 @@ public class HomePage {
 	}
 	
 
+	
+	
+	
 	public void campaigns() {
 		clkBtn.click();
 		clkBtnCamp.click();

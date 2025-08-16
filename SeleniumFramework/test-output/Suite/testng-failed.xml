@@ -6,8 +6,8 @@
       <class name="Organization.CreateOrganizationTest">
         <methods>
           <include name="CreateOrganization"/>
-          <include name="AS"/>
           <include name="BT"/>
+          <include name="AS"/>
           <include name="AC"/>
           <include name="BS"/>
           <include name="BC"/>
@@ -16,6 +16,45 @@
           <include name="BM"/>
         </methods>
       </class> <!-- Organization.CreateOrganizationTest -->
+      <class name="Product.CreateProductTest">
+        <methods>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+          <include name="CreateProduct"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- Product.CreateProductTest -->
+      <class name="Campaigns.CreateCampWithProdTest">
+        <methods>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+          <include name="CreateCampWithProd"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- Campaigns.CreateCampWithProdTest -->
+      <class name="Product.CreateAndDeleteProducTestt">
+        <methods>
+          <include name="CreateAndDeleteProduct"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- Product.CreateAndDeleteProducTestt -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

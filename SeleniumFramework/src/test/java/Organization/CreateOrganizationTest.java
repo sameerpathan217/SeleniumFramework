@@ -1,5 +1,7 @@
 package Organization;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -73,7 +75,7 @@ public class CreateOrganizationTest extends BasClass{
 		Thread.sleep(4000);
 	
 		//homePage.SignOutLink(driver);
-		Assert.assertEquals(data, VALUE);
+		AssertJUnit.assertEquals(data, VALUE);
 
 	}
 
